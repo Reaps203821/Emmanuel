@@ -41,7 +41,7 @@ export default function SignUpScreen() {
     setTimeout(() => {
       setLoading(false);
       Alert.alert("Success", "Account created successfully!");
-      navigation.replace("Home"); // 👈 navigate to your main screen
+      navigation.replace("MainTabs"); // 👈 navigate to your main screen
     }, 2000);
   };
 

@@ -41,7 +41,7 @@ const LoginScreen = ({ navigation }) => {
     setTimeout(() => {
       setLoading(false);
       console.log("✅ Logged in successfully!");
-      navigation.replace("Home"); // navigate to HomeScreen
+      navigation.replace("MainTabs"); // navigate to HomeScreen
     }, 2000);
   };
 
