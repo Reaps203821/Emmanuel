@@ -42,3 +42,25 @@ yarn-error.*
 
 *.log
 .env
+
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log
+
+# Dependency directories
+node_modules/
+/ios/Pods/
+/android/build/
+
+# Build generated
+/android/app/build/
+/ios/build/
+DerivedData/
+
+# OS X files
+.DS_Store
+
+# Environment variables
+.env
